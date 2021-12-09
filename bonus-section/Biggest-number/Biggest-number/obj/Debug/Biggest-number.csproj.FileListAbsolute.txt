@@ -1,0 +1,7 @@
+C:\Projects\HumanBrand\Assesment-Humand-Brands\bonus-section\Biggest-number\Biggest-number\bin\Debug\Biggest-number.exe.config
+C:\Projects\HumanBrand\Assesment-Humand-Brands\bonus-section\Biggest-number\Biggest-number\bin\Debug\Biggest-number.exe
+C:\Projects\HumanBrand\Assesment-Humand-Brands\bonus-section\Biggest-number\Biggest-number\bin\Debug\Biggest-number.pdb
+C:\Projects\HumanBrand\Assesment-Humand-Brands\bonus-section\Biggest-number\Biggest-number\obj\Debug\Biggest-number.csproj.AssemblyReference.cache
+C:\Projects\HumanBrand\Assesment-Humand-Brands\bonus-section\Biggest-number\Biggest-number\obj\Debug\Biggest-number.csproj.CoreCompileInputs.cache
+C:\Projects\HumanBrand\Assesment-Humand-Brands\bonus-section\Biggest-number\Biggest-number\obj\Debug\Biggest-number.exe
+C:\Projects\HumanBrand\Assesment-Humand-Brands\bonus-section\Biggest-number\Biggest-number\obj\Debug\Biggest-number.pdb
