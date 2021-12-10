@@ -1,0 +1,36 @@
+﻿<H1>Clientes</H1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>DPI</th>
+            <th>Eliminar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var client in ViewBag.Clients)
+        {
+            <tr>
+                <td>@client.Nombre</td>
+                <td>@client.DPI</td>
+                <td><button type="button" id="delete" class="btn btn-danger" onclick="Delete(@client.Id)">Danger</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<script>
+    function Delete(element) {
+        console.log("Hola" + element)
+        fetch("/Client/Delete", {
+            method: 'POST',
+            headers: {
+                'Content-Type' : "application/json"
+            },
+            body: JSON.stringify({ id : element })
+        })
+        .then(data => location.reload());
+    }
+</script>
