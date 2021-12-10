@@ -1,0 +1,37 @@
+﻿
+
+
+<form method="post" action="@Url.Action("Save", "Client")">
+    <div class="form-group">
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="Nombre" class="form-control" id="Nombre" placeholder="Nombre">
+    </div>
+    <div class="form-group">
+        <label for="DPI">DPI</label>
+        <input type="number" name="DPI" class="form-control" id="DPI" placeholder="DPI">
+    </div>
+    <div class="form-group">
+        <label for="Fecha">Fecha</label>
+        <input type="date" name="Fecha" class="form-control" id="Fecha" placeholder="Fecha">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+
+<br />
+
+@if (ViewBag.status != null)
+{
+    if (ViewBag.status)
+    {
+        <div class="alert alert-success">
+            <strong>Almacenado!</strong> @ViewBag.Message
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger">
+            <strong>Error!</strong> @ViewBag.Message
+        </div>
+    }
+}
